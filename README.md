@@ -19,25 +19,7 @@ This project leverages natural language processing (NLP) techniques to analyze t
 - **VADER** (Valence Aware Dictionary and sEntiment Reasoner), a rule-based sentiment analysis tool specifically attuned to sentiments expressed in social media.
 - **RoBERTa** (A Robustly Optimized BERT Pretraining Approach), a transformer model that has been pre-trained on a large corpus of Twitter data for sentiment analysis.
 
-## Features
-- Cleans and preprocesses text data.
-- Performs sentiment analysis using VADER and RoBERTa models.
-- Visualizes sentiment scores across different review ratings.
-- Allows for interactive sentiment analysis of individual sentences.
-
-## Setup
-Follow these steps to set up and run the project on Visual Studio 2022.
-
-### Prerequisites
-- Python 3.7 or higher
-- Visual Studio 2022
-
-### Installing Required Libraries
-Open your terminal or command prompt and run the following commands:
-```sh
-pip install pandas numpy matplotlib seaborn nltk tqdm transformers scipy beautifulsoup4
-
-Code Overview
+##Code Overview
 Import Libraries
 The script starts by importing the necessary libraries for data manipulation, visualization, NLP, and using pre-trained models.
 
@@ -74,3 +56,25 @@ Defines a function for interactive sentiment analysis of individual sentences us
 Usage
 Run the script to see the visualizations and sentiment analysis results on the sample dataset.
 Enter individual sentences for real-time sentiment analysis using both VADER and RoBERTa models.
+
+## Features
+- Cleans and preprocesses text data.
+- Performs sentiment analysis using VADER and RoBERTa models.
+- Visualizes sentiment scores across different review ratings.
+- Allows for interactive sentiment analysis of individual sentences.
+
+## Setup
+Follow these steps to set up and run the project on Visual Studio 2022.
+
+### Prerequisites
+- Python 3.7 or higher
+- Visual Studio 2022
+
+### Installing Required Libraries
+Open your terminal or command prompt and run the following commands:
+```sh
+pip install pandas numpy matplotlib seaborn nltk tqdm transformers scipy beautifulsoup4
+
+
+
+
