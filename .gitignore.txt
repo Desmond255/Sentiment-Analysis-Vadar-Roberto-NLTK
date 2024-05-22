@@ -1,0 +1,16 @@
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Ignore build results
+[Bb]in/
+[Oo]bj/
+
+# Ignore .NET Core project specific files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore any sensitive files
+*.secret
